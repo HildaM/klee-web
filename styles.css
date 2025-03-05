@@ -1014,6 +1014,45 @@ footer {
         padding: 10px 12px;
     }
 }
+@media screen and (max-width: 1350px) {
+    .product-hunt {
+        padding: calc(4px + 0.5vw);
+        margin-left: 10px;
+        transform: scale(0.9);
+    }
+    .product-hunt span {
+        display: none;
+    }
+    .product-hunt img {
+        margin-right: 0;
+        height: calc(16px + 0.5vw);
+    }
+    nav {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        margin-top: 10px;
+    }
+    nav ul {
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+    nav ul li {
+        margin: 5px 0;
+        width: 100%;
+        text-align: center;
+    }
+}
+@media screen and (max-width: 600px) {
+    nav {
+        display: none;
+    }
+    .product-hunt {
+        transform: scale(0.8);
+    }
+}
 html {
     scroll-behavior: smooth;
 }
