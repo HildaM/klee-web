@@ -1014,3 +1014,6 @@ footer {
         padding: 10px 12px;
     }
 }
+html {
+    scroll-behavior: smooth;
+}
