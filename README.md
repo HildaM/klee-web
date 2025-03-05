@@ -3,6 +3,8 @@
 ## 项目简介
 Klee是一款功能强大的本地AI桌面应用，专注于提供安全、私密的AI助手服务。它支持本地运行多种AI模型，包括DeepSeek、Llama、Qwen和Gemma，确保用户数据的隐私和安全。
 
+🔗 [在线演示](https://hildam.github.io/klee-web/)
+
 ## 主要特点
 - **本地运行**: 所有AI处理都在本地完成，无需数据上传到云端
 - **多模型支持**: 支持DeepSeek、Llama、Qwen和Gemma等多种AI模型

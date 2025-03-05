@@ -56,9 +56,9 @@ document.addEventListener('DOMContentLoaded', function() {
         
         // 波浪参数
         const waves = [
-            { color: 'rgba(74, 122, 157, 0.2)', amplitude: 50, frequency: 0.005, speed: 0.0015, phase: 0 },
-            { color: 'rgba(100, 149, 190, 0.15)', amplitude: 30, frequency: 0.01, speed: 0.002, phase: 0 },
-            { color: 'rgba(53, 95, 131, 0.1)', amplitude: 40, frequency: 0.008, speed: 0.001, phase: 0 }
+            { color: 'rgba(74, 122, 157, 0.2)', amplitude: 50, frequency: 0.016, speed: 0.02, phase: 0 },
+            { color: 'rgba(100, 149, 190, 0.15)', amplitude: 30, frequency: 0.020, speed: 0.01, phase: 0 },
+            { color: 'rgba(53, 95, 131, 0.1)', amplitude: 40, frequency: 0.012, speed: 0.016, phase: 0 }
         ];
         
         // 动画函数
